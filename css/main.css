@@ -1,3 +1,13 @@
+#frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1280px;
+    height: 720px;
+    border: 1px solid black;
+  }
+  
 #square {
     position: absolute;
     top: 50%;
@@ -7,15 +17,30 @@
     height: 100px;
     background-color: blue;
 }
-
+  
 #square p {
     text-align: center;
     color: white;
-}
-
+  }
+  
 a {
     position: fixed;
     left: 50%;
     right: 50%;
     font-size: 30px;
+  }
+  
+#enemySquare {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+  
+#enemySquare p {
+    text-align: center;
+    color: white;
 }
